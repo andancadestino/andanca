@@ -1,0 +1,23 @@
+{
+  "name": "Grand Tour d'Italia 2026 - Andança",
+  "short_name": "Andança",
+  "description": "Expedição de 15 dias pela Itália: roteiro completo, modo dia ao vivo, calendário iCal e acesso offline.",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "background_color": "#F5EFE0",
+  "theme_color": "#5B6B4A",
+  "categories": ["travel"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dia ao Vivo", "short_name": "Ao Vivo", "url": "./#dia-ao-vivo", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Calendário (.ics)", "short_name": "Calendário", "url": "./#calendario", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
